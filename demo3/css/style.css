@@ -953,6 +953,10 @@ textarea#comment::placeholder {
     float: left;
 }
 
+.row {
+    justify-content: center;
+}
+
 .footer_menu ul {
     margin: 0px;
     padding: 0px;
