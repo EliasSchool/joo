@@ -44,6 +44,7 @@ html {
 
 body {
     color: #666666;
+    background-color: #cdbfbf;
     font-size: 14px;
     font-family: Roboto;
     line-height: 1.80857;
@@ -74,8 +75,8 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: normal;
-    color: #111111;
-    margin: 0
+    color: #d5d5d5;
+    margin: 0;
 }
 
 h1 {
@@ -265,7 +266,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #ffffff;
+    color: #9a9797;
     text-transform: uppercase;
     text-align: center;
 }
@@ -274,7 +275,7 @@ button {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #fffdfd;
+    color: #9a9797;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -285,17 +286,18 @@ button {
     width: 81%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #9a9797;
     text-align: center;
     padding-top: 30px;
     display: flex;
 }
 
 .book_bt {
-    width: 170px;
+    width: 180px;
     margin: 0 auto;
     text-align: center;
 }
+
 
 .book_bt a {
     width: 100%;
@@ -347,15 +349,24 @@ button {
 .about_text {
     width: 100%;
     float: left;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     color: #010304;
     margin: 0px;
+    justify-content: right;
+    
+    
 }
 
 .read_bt {
     width: 160px;
-    float: left;
+    float: right;
     margin-top: 40px;
+    
+}
+
+.stripe{
+    text-align: center;
 }
 
 .read_bt a {
@@ -365,8 +376,8 @@ button {
     color: #ffffff;
     background-color: #bf3d42;
     text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
 }
 
 .read_bt a:hover {
@@ -374,9 +385,18 @@ button {
     background-color: #121212;
 }
 
+
+
+.col-md-6{
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
 .image_1 {
     width: 100%;
     float: left;
+    border-width: 10px;
 }
 
 .game_section {
