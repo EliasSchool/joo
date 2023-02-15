@@ -1,5 +1,6 @@
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "poppins",
+ sans-serif;
   color: #101010;
   background-color: #ffffff;
 }
@@ -105,6 +106,39 @@ a:focus {
   font-weight: bold;
   font-size: 24px;
   color: #fafcfd;
+}
+
+
+#tervetuloa_teksti{
+  color: #141313;
+  font-size: 30px;
+  margin-left: 20px; 
+  text-align: center;
+}
+
+#nimi{
+  padding: 10px 30px;
+  margin: 0 15px;
+  color: #514f4f;
+  text-align: left;
+  border-radius: 5px;
+  width: 180px;
+}
+
+#kirjaudu_nappi, 
+#kirjaudu_ulos{
+  padding: 10px 30px;
+  margin: 0 15px;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+#kirjaudu_nappi:hover,
+#kirjaudu_ulos:hover{
+  background-color: #1b1b1b;
+  color: #ffffff;
 }
 
 .custom_nav-container .nav_search-btn {

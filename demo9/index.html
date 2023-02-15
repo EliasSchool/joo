@@ -29,6 +29,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <script type = "text/javascript" language = "javascript" src = "kirjautuminen.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,12 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <input type="submit" id="kirjaudu_ulos" value="Kirjaudu ulos" onclick="kirjaudu_ulos()">
+                <form id="kirjautumis_lomake">
+                    <input type="text" id="nimi" placeholder="Syötä nimesi" value="">
+                    <input type="submit" id="kirjaudu_nappi" value="Kirjaudu sisään" onclick="kirjaudu()">
+                </form>
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -75,6 +81,7 @@
             </div>
           </div>
         </nav>
+        <p id="tervetuloa_teksti">Tervetuloa</p>
       </div>
     </header>
     <!-- end header section -->
